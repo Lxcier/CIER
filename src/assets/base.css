@@ -1,0 +1,57 @@
+:root {
+    --cor-principal: #C350F9;
+    --cor-secundaria: #5709BB;
+    --fundo-azul: #1D1D3F;
+    --branco: #FFF;
+}
+
+/* semantic color variables for this project */
+:root {
+ 
+}
+
+/*Textos*/
+.title-big {
+    font-size: 48px;
+    font-weight: 800;
+    color: var(--branco);
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--branco);
+}
+
+.title-small {
+    font-weight: 24px;
+    font-weight: 800;
+    color: var(--branco);
+}
+
+.subtitle-orbitron {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--branco);
+    margin-top: 6px;
+}
+
+.subtitle-lato {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--cor-principal);
+    margin-top: 16px;
+}
+
+.text {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--branco);
+}
+
+/*Outros */
+.text-highlight {
+    color: var(--cor-principal);
+}

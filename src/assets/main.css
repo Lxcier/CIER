@@ -1,0 +1,27 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: Orbitron, sans-serif;
+}
+
+body {
+  background: linear-gradient(#0D0D21 18%, #121238 54%, #1D1D5A 100%);
+  background-repeat: no-repeat;
+}
+
+
+.section {
+  padding: 80px 40px;
+
+  max-width: 1440px;
+  width: 100%;
+
+  margin: 0 auto;
+
+  overflow-x: hidden;
+}
