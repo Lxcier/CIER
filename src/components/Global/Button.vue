@@ -30,6 +30,7 @@
 		border-radius: 20px;
 
 		transition: all .2s ease-in-out;
+
 	}
 
 	.btn-1:hover {

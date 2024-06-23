@@ -15,7 +15,7 @@
 				<h2 class="title">
 					Crie seu império digital com a CIER
 				</h2>
-				<p class="subtitle-orbitron">Seja a próxima grande história de sucesso.</p>
+				<p class="subtitle">Seja a próxima grande história de sucesso.</p>
 			</div>
 
 			<p class="text">Você está pronto para levar seu negócio para o próximo nível?
@@ -51,14 +51,10 @@
 
 <style scoped>
 	.about {
-		background-color: var(--fundo-azul);
+		background: linear-gradient(#1D1D3F 35%, #111134 100%);
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-	}
-
-	.subtitle-orbitron {
-    	color: var(--cor-principal);
 	}
 
 	.about-cta {
@@ -66,7 +62,7 @@
 		flex-direction: column;
 		justify-content: left;
 
-		gap: 33px;
+		gap: 3.3rem;
 
 		width: 50%;
 	}
@@ -80,7 +76,7 @@
 
 		display: flex;
 		flex-direction: column;
-		gap: 6px;
+		gap: .6rem;
 	}
 
 	.services-item {

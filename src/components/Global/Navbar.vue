@@ -31,7 +31,7 @@
 
 <template>
 	<ul class="navbar">
-		<li class="navbar__item" v-for="item in navbar.item">
+		<li class="navbar__item text" v-for="item in navbar.item">
 			<a @click="e => e.target.classList.toggle('link-isActive')":href="item.url">
 				{{item.option}}
 			</a>
@@ -43,7 +43,7 @@
 	ul.navbar {
 		display: flex; 
 		align-items: center;
-		gap: 16px;
+		gap: 1.6rem;
 		text-align: center;
 		list-style: none;
 	}

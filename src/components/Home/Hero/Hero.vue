@@ -14,12 +14,12 @@
 		<section class="hero-cta">
 			<h1 class="title-big" >O <span class="text-highlight">Mundo Digital</span> ao Seu Alcance.</h1>
 
-			<p class="subtitle-orbitron">Já imaginou transformar completamente o seu negócio com a ajuda da internet?</p>
+			<p class="subtitle">Já imaginou transformar completamente o seu negócio com a ajuda da internet?</p>
 
 			<Button cta="Quero saber mais"/>
 		</section>
 
-		<p class="hero-text subtitle-orbitron"w>Uma pesquisa feita pela HostGator mostrou que 58% das empresas aumentaram o investimento digital na pandemia, com 64% tendo <span class="text-highlight">aumento nas vendas</span>.</p>
+		<p class="hero-text subtitle">Uma pesquisa feita pela HostGator mostrou que 58% das empresas aumentaram o investimento digital na pandemia, com 64% tendo <span class="text-highlight">aumento nas vendas</span>.</p>
 	</main>
 </template>
 
@@ -28,14 +28,14 @@
 		background: url('../../../assets/images/banners/hero-banner.png');
 		background-repeat: no-repeat;
 		background-size: cover;
-		margin-top: -82px;
-		height: 650px;
+		margin-top: -8.2rem;
+		height: 65rem;
 
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
 
-		gap: 20px;
+		gap: 2.0rem;
 	}
 
 	.hero-cta {
@@ -47,7 +47,7 @@
 		max-width: 48%;
 
 		& h1 {
-			margin-bottom: 26px;
+			margin-bottom: 2.6rem;
 		}
 
 		& .text-highlight {
@@ -55,12 +55,17 @@
 		}
 
 		& p {
-			margin-bottom: 60px;
+			margin-bottom: 6.0rem;
 		}
 	}
 
 	.hero-text {
 		width: 34%;
 		text-align: right;
+	}
+
+	.subtitle {
+		text-transform: initial;
+		color: var(--branco)
 	}
 </style>
