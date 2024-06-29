@@ -1,7 +1,7 @@
 <script>
 	import Button from '../../Global/Button.vue'
 
-	import Glide from './Glide.vue'
+	import Glide from './MainGlide.vue'
 	
 
 	export default {

@@ -45,7 +45,7 @@
 			<Button cta="Ver todos os serviços"/>
 		</section>
 
-		<img class="image" src="../../../assets/images/vetores/goals.png">
+		<img class="image auto-scale" src="../../../assets/images/vetores/goals.png">
 	</main>
 </template>
 
@@ -86,5 +86,19 @@
 	.image {
 		width: 40%;
 		image-rendering: optimizeSpeed;
+	}
+
+	.auto-scale {
+		animation: autoScaleAnimation;
+		animation-timeline: view();
+	}
+
+	@keyframes autoScaleAnimation {
+		from {
+			transform: rotate(0deg);
+		}
+		to {
+			transform: rotate(360deg);
+		}
 	}
 </style>

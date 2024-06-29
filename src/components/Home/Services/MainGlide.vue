@@ -82,12 +82,13 @@ export default {
 
 <style scoped>
   .glide {
-    padding: 0.8rem 0;
+    padding: 0.8rem;
     margin-top: 3.3rem;
   }
 
   .glide__track {
     margin: 0 auto;
+    width: calc(100% - 10rem)
   }
   
   .glide__image {
