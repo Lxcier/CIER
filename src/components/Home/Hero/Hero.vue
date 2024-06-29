@@ -12,7 +12,7 @@
 <template>
 	<main class="section hero">
 		<section class="hero-cta">
-			<h1 class="title-big" >O <span class="text-highlight">Mundo Digital</span> ao Seu Alcance.</h1>
+			<h1 class="title-big">O <span class="text-highlight">Mundo Digital</span> ao Seu Alcance.</h1>
 
 			<p class="subtitle">Já imaginou transformar completamente o seu negócio com a ajuda da internet?</p>
 

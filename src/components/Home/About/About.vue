@@ -12,7 +12,7 @@
 	<main class="section about">
 		<section class="about-cta">
 			<div class="headline">
-				<h2 class="title">
+				<h2 class="title autoShow">
 					Crie seu império digital com a CIER
 				</h2>
 				<p class="subtitle">Seja a próxima grande história de sucesso.</p>
@@ -45,7 +45,7 @@
 			<Button cta="Ver todos os serviços"/>
 		</section>
 
-		<img class="image auto-scale" src="../../../assets/images/vetores/goals.png">
+		<img class="image autoScale" src="../../../assets/images/vetores/goals.png">
 	</main>
 </template>
 
@@ -55,6 +55,11 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+	}
+
+	.headline .title{
+		margin: 0;
+		padding: 0;
 	}
 
 	.about-cta {
@@ -88,17 +93,32 @@
 		image-rendering: optimizeSpeed;
 	}
 
-	.auto-scale {
+	.autoScale {
 		animation: autoScaleAnimation;
-		animation-timeline: view();
+		animation-duration: 1.5s;
 	}
 
 	@keyframes autoScaleAnimation {
 		from {
-			transform: rotate(0deg);
+			transform: scale(0);
 		}
 		to {
-			transform: rotate(360deg);
+			transform: scale(1);
+		}
+	}
+
+	.autoShow {
+		animation: autoShowAnimation;
+		animation-timeline: view(40% auto);
+	}
+
+	@keyframes autoShowAnimation {
+		from {
+			opacity: 0;
+			transform: translateY(200px) scale(0.3);
+		}to{
+			opacity: 1;
+			transform: translateY(0) scale(1);
 		}
 	}
 </style>
